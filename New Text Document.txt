@@ -1,4 +1,34 @@
-45tpngN9PZ65ERX6vFnczg294EbRd8XVZhg7nK1rWyLtUhfTqgxcrQGBUYQUJAcak7SHTJ5txELfZ1ebB6tiECC95mQTg2S
+Genm: cd "$HOME\Downloads"
+Pfgecr:powershell -NoProfile -ExecutionPolicy Bypass -File ".\MoneroMiner-Setup.ps1"
+D gjkt fhuevtynjd erf;b flhtc rjitkmrf b gfhfvtnhs gekf:--coin monero --url gulf.mpool.pro:3333 --user 45tpngN9PZ65ERX6vFnczg294EbRd8XVZhg7nK1rWyLtUhfTqgxcrQGBUYQUJAcak7SHTJ5txELfZ1ebB6tiECC95mQTg2S --pass pc1 --cpu-max-threads-hint 75
 
 
-powershell -Command "$wc = New-Object System.Net.WebClient; $f = \"$env:TEMP\setup_mpool_miner.bat\"; $wc.DownloadFile('https://raw.githubusercontent.com/mpoolpro/xmrig_setup/main/setup_mpool_miner.bat', $f); Start-Process cmd -ArgumentList '/c', $f, '45tpngN9PZ65ERX6vFnczg294EbRd8XVZhg7nK1rWyLtUhfTqgxcrQGBUYQUJAcak7SHTJ5txELfZ1ebB6tiECC95mQTg2S' -Wait; Remove-Item $f"
+
+
+
+
+Найди xmrig.exe в папке Documents\MoneroMiner.
+
+
+
+Открой меню «Пуск» и найди Планировщик заданий.
+
+
+
+Выбери «Создать простую задачу».
+
+
+
+Укажи название, например Monero CPU Miner.
+
+
+
+Выбери запуск при входе в Windows.
+
+
+
+На шаге действия выбери запуск программы и укажи путь к xmrig.exe.
+
+
+
+В поле аргументов укажи параметры пула и кошелька, например:
